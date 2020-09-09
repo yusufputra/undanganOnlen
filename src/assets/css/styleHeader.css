@@ -1,0 +1,57 @@
+.layout {
+  background-image: url("../img/BG.svg");
+  height: -webkit-fill-available;
+  width: 100%;
+  background-size: cover;
+}
+
+.row {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.col {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  align-items: center;
+  text-align: center;
+  width: 100vw;
+}
+
+.head {
+  font-size: 80pt !important;
+  font-family: "Billy Ohio";
+  margin: 0 !important;
+}
+.conj {
+  font-size: 30pt !important;
+  font-family: "Billy Ohio";
+  margin: 0 !important;
+}
+
+@media (max-width: 500px) {
+  .head {
+    font-size: 40pt !important;
+    font-family: "Billy Ohio";
+    margin: 0 !important;
+  }
+  .conj {
+    font-size: 20pt !important;
+    font-family: "Billy Ohio";
+    margin: 0 !important;
+  }
+  .col {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    align-items: center;
+    text-align: center;
+  }
+}
+@font-face {
+  font-family: "Billy Ohio";
+  src: url("../font/Billy-Ohio.ttf");
+}

@@ -1,0 +1,22 @@
+.title {
+  text-align: center;
+}
+.info {
+  align-items: center;
+  text-align: center;
+}
+.turunin {
+  transform: translate(0, 120%);
+}
+.tentang {
+  margin-top: 1%;
+}
+
+@media (max-width: 500px) {
+  .turunin {
+    transform: translate(0, 0);
+  }
+  .tentang {
+    margin-top: 10%;
+  }
+}
