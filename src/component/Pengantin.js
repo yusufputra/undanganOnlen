@@ -14,23 +14,23 @@ const Pengantin = () => {
         </Col>
       </Row>
       <Row gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}>
-        <Col md={8} xs={24} className="info gutter-row">
+        <Col lg={8} md={24} xs={24} className="info gutter-row">
           <div className="turunin">
             <Title className="head">Fauzely Wiji R.</Title>
-            <Paragraph className="turunin">
+            <Paragraph>
               Putri Pertama dari Bapak Supriyadi dan Ibu Suningsih
             </Paragraph>
           </div>
         </Col>
-        <Col md={8} xs={24} className="info gutter-row">
+        <Col lg={8} md={24} xs={24} className="info gutter-row">
           <LazyLoad>
             <Img src={bng} />
           </LazyLoad>
         </Col>
-        <Col md={8} xs={24} className="info gutter-row">
+        <Col lg={8} md={24} xs={24} className="info gutter-row">
           <div className="turunin">
             <Title className="head">Viesa Risqi A.</Title>
-            <Paragraph className="turunin">
+            <Paragraph>
               Putra Pertama dari Bapak Busari dan Ibu Sri Handayani
             </Paragraph>
           </div>

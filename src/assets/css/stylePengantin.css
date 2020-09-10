@@ -12,11 +12,23 @@
   margin-top: 1%;
 }
 
+@media (max-width: 1512px) {
+    .turunin {
+      transform: translate(0, 0);
+    }
+  
+  }
+
+@media (max-width: 1024px) {
+  .turunin {
+    transform: translate(0, 0);
+  }
+
+}
+
 @media (max-width: 500px) {
   .turunin {
     transform: translate(0, 0);
   }
-  .tentang {
-    margin-top: 10%;
-  }
+
 }
