@@ -11,6 +11,9 @@
 .tentang {
   margin-top: 1%;
 }
+.margintop{
+  padding-top: 10%;
+}
 
 @media (max-width: 1512px) {
     .turunin {

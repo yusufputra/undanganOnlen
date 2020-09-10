@@ -3,7 +3,7 @@ import { Layout, Row, Col, Typography } from "antd";
 const { Title, Paragraph } = Typography;
 const Tanggal = () => {
   return (
-    <Layout>
+    <Layout style={{ backgroundColor: "#fdf7f0", padding: "20px" }}>
       <Row>
         <Col span={24} className="title">
           <Title className="tentang">Acara Pernikahan</Title>

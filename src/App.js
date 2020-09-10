@@ -10,12 +10,12 @@ import Tanggal from "./component/Tanggal";
 
 function App() {
   return (
-    <Layout>
+    <Layout style={{overflowX:"hidden"}}>
       <Header></Header>
       <Pengantin></Pengantin>
       <Tanggal></Tanggal>
       <Maps></Maps>
-      <Rsvp></Rsvp>
+      {/* <Rsvp></Rsvp> */}
       <Footer></Footer>
     </Layout>
   );

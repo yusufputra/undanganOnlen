@@ -1,6 +1,6 @@
 .maps {
   position: relative;
-  transform: translate(39%, 0);
+  transform: translate(9%, 0);
   align-items: center;
   text-align: center;
   width: 100vw;
@@ -8,7 +8,6 @@
 @media (max-width: 1366px) {
     .maps {
       position: relative;
-      transform: translate(35%, 0);
       align-items: center;
       text-align: center;
       width: 100vw;
@@ -19,7 +18,7 @@
 @media (max-width: 1024px) {
   .maps {
     position: relative;
-    transform: translate(29%, 0);
+    transform: translate(9%, 0);
     align-items: center;
     text-align: center;
     width: 100vw;
@@ -29,7 +28,7 @@
 @media (max-width: 500px) {
     .maps {
       position: relative;
-      transform: translate(2%, 0);
+      transform: translate(5%, 0);
       align-items: center;
       text-align: center;
       width: 100vw;

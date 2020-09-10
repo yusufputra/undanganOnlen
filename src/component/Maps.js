@@ -15,12 +15,12 @@ const Peta = () => {
   );
   console.log(map); // instance of created Map object (https://developers.google.com/maps/documentation/javascript/reference/map)
   console.log(google); // google API object (easily get google.maps.LatLng or google.maps.Marker or any other Google Maps class)
-  return <div ref={ref} style={{ width: 400, height: 300 }} />;
+  return <div ref={ref} style={{ width: 80+'vw', height: 100+'vh' }} />;
 };
 
 const Maps = () => {
   return (
-    <Layout style={{ backgroundColor: "#fdf7f0" }}>
+    <Layout style={{ backgroundColor: "#fdf7f0", padding: "20px" }}>
       <Row>
         <Col span={24} className="title">
           <Title className="tentang">Lokasi Pernikahan</Title>

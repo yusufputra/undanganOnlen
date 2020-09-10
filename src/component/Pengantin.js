@@ -7,14 +7,9 @@ import bng from "../assets/img/braidngroom.svg";
 const { Title, Paragraph } = Typography;
 const Pengantin = () => {
   return (
-    <Layout style={{ backgroundColor: "#fdf7f0" }}>
-      <Row>
-        <Col span={24} className="title">
-        <Title className="tentang">Tentang Kami</Title>
-        </Col>
-      </Row>
+    <Layout style={{ backgroundColor: "#fdf7f0", padding: "20px" }}>
       <Row gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}>
-        <Col lg={8} md={24} xs={24} className="info gutter-row">
+        <Col lg={8} md={24} xs={24} className="info gutter-row margintop">
           <div className="turunin">
             <Title className="head">Fauzely Wiji R.</Title>
             <Paragraph>
@@ -27,7 +22,7 @@ const Pengantin = () => {
             <Img src={bng} />
           </LazyLoad>
         </Col>
-        <Col lg={8} md={24} xs={24} className="info gutter-row">
+        <Col lg={8} md={24} xs={24} className="info gutter-row margintop">
           <div className="turunin">
             <Title className="head">Viesa Risqi A.</Title>
             <Paragraph>
